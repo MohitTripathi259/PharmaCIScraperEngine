@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python demo.py:*)",
+      "Bash(python -m pip install:*)",
+      "Bash(curl:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(python -m json.tool:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "prev_dom": "<html><body><h1>Trial 3</h1></body></html>",
+  "cur_dom": "<html><body><h1>Trial 4</h1></body></html>",
+  "prev_ss": "",
+  "cur_ss": "",
+  "goal": "Track new trials and approvals",
+  "domain": "regulatory",
+  "url": "https://example.com",
+  "keywords": ["trial", "phase", "approval", "fda"]
+}

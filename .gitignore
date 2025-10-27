@@ -1,0 +1,15 @@
+.venv/
+.venv311/
+__pycache__/
+.local_store/
+*.pyc
+.DS_Store
+*.egg-info/
+.pytest_cache/
+*.pyo
+*.pyd
+.coverage
+htmlcov/
+dist/
+build/
+.env
