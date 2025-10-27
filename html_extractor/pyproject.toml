@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "html-extractor"
+version = "1.0.0"
+description = "Production-ready HTML to text + metadata extractor"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Platform Engineering Team"}
+]
+keywords = ["html", "extraction", "metadata", "parser", "beautifulsoup"]
+
+dependencies = [
+    "beautifulsoup4>=4.11.0",
+    "lxml>=4.9.0",
+    "pydantic>=2.0.0,<3.0.0",
+    "fastapi>=0.100.0",
+    "uvicorn[standard]>=0.20.0",
+    "dateparser>=1.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourorg/html-extractor"
+Documentation = "https://github.com/yourorg/html-extractor/blob/main/README.md"
+Repository = "https://github.com/yourorg/html-extractor"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"

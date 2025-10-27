@@ -1,0 +1,17 @@
+# HTML Extractor Requirements
+
+# Core dependencies
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+pydantic>=2.0.0,<3.0.0
+
+# FastAPI for API endpoint
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+
+# Date parsing
+dateparser>=1.1.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
